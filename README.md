@@ -1,13 +1,20 @@
 # Blogix API — Backend Service
 
-Este es el servicio backend de **Blogix** (también conocido como **LUCID Blog**), un motor de blog moderno y seguro desarrollado con **Spring Boot 3**, **Java 17+** y **PostgreSQL**. El proyecto está estructurado bajo principios de **Arquitectura Hexagonal**, lo que garantiza un desacoplamiento claro entre la lógica de dominio (casos de uso) y los detalles de infraestructura (base de datos, controladores REST y seguridad).
+Este es el servicio backend de **Blogix** , un motor de blog moderno y seguro desarrollado con **Spring Boot 3**, **Java 21** y **PostgreSQL**. El proyecto está estructurado bajo principios de **Arquitectura Hexagonal**, lo que garantiza un desacoplamiento claro entre la lógica de dominio (casos de uso) y los detalles de infraestructura (base de datos, controladores REST y seguridad).
+
+---
+
+## 🔗 Enlaces del Proyecto
+
+* 🚀 **Demo en Vivo (Frontend):** [https://blogix-frontend.vercel.app](https://blogix-frontend.vercel.app)
+* 💻 **Repositorio del Frontend (Angular):** [https://github.com/Ricckyfv/Blogix-frontend](https://github.com/Ricckyfv/Blogix-frontend)
 
 ---
 
 ## 🛠️ Tecnologías y Herramientas
 
-- **Java 17** (versión de soporte a largo plazo)
-- **Spring Boot 3.x**
+- **Java 21** (versión de soporte a largo plazo)
+- **Spring Boot 3**
   - **Spring Data JPA** (Persistencia y accesos a datos)
   - **Spring Security** (Seguridad y autorización)
 - **PostgreSQL** (Motor de base de datos relacional)
@@ -57,7 +64,7 @@ src/main/java/com/ricardofernandezv/blog/
 
 ### Requisitos previos
 
-- **Java JDK 17** o superior.
+- **Java JDK 21** o superior.
 - **PostgreSQL** corriendo de forma local o a través de Docker.
 
 ### Variables de entorno / Configuración
